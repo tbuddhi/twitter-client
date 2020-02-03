@@ -1,0 +1,105 @@
+.timelineContent{
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.timelineContent::-webkit-scrollbar { 
+    width: 0 !important 
+}
+
+.col-heading{
+    font-size: 1.5rem;
+    font-weight: bold;    
+}
+
+.col-heading span{
+    font-size: 1rem;
+}
+
+.width-20{
+    width: 20%;
+}
+
+.border-r-50{
+    border-radius: 50%;
+    border: 2px solid #1da1f2;
+}
+
+.post-box{
+    padding: 1rem;
+    border-radius: 8px;
+    border-color: #deeefd;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 82px;
+    font-size: 1.2rem;
+}
+
+.tweet-post-area{
+    padding-top: 5rem;
+}
+
+.btn-login{
+    font-weight: 500;
+    height: auto;
+    line-height: normal;
+    max-width: 230px;
+    min-height: 40px;
+    padding: 8px 16px;
+    text-align: left;
+    width: 100%;
+    background: hsla(0,0%,62%,.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    background-color: #55acee;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-login:hover{
+    background-color: #40a1ea;
+}
+
+.tweet-icon{
+    width: 18px;
+    height: 18px;
+}
+
+.btn-text{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 16px;
+}
+
+.clr-b-1{
+    color: rgba(53, 156, 234, 0.7);
+}
+
+.clr-b-2{
+    color: #1da1f2;
+}
+
+.header-tweet-icon{
+    left: 0;
+    position: absolute;
+    padding-left: 2rem;
+}
+
+.header-tweet-icon .tweet-icon{
+    width: 35px;
+    height: 35px;
+}
+
+.btn-tweet{
+    height: 39px;
+    background-color: #1da1f2;
+    color: #fff !important;
+    padding: .7rem 1.2rem;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.upload-icons div a{
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    color: #1da1f2;
+}
